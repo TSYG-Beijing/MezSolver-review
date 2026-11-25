@@ -1,0 +1,186 @@
+{
+  "description": "Prepared Toyota Yaris 116 R02 training assets and exact mappings from archived schema identifiers to the public PhysicsNeMo example. Model response cases remain on the dataset mount. No simulation fields were rewritten.",
+  "manifest": "manifest.json",
+  "output_channels": [
+    "U1",
+    "U2",
+    "U3"
+  ],
+  "archive_compatibility": "Dataset manifest identities differ. Existing checkpoints pinned to the original identity require their original manifest and compatible implementation.",
+  "node_count": 1488757,
+  "node_training_regions": 5617,
+  "geometry_element_regions": 5518,
+  "strict_element_regions": 5542,
+  "seam_edges": 44598,
+  "validation_nodes": 59296,
+  "geometry_sources": "Toyota_Yaris_116_车轮圆环分区_20261124",
+  "format_conversions": {
+    "assets/material_weights.json": {
+      "original": "provenance/original/material_weights.json",
+      "original_sha256": "5f3765c32bf860302ba7b15f421147e9b6a61da05f885faa9a6361ec45699290",
+      "portable_sha256": "91c029c3d2872ca3dfa08ef0b4cea2114b646faf7c9be36d893e2ba719d9605a",
+      "modified_fields": [
+        "format"
+      ]
+    },
+    "assets/wheel_training_groups.npz": {
+      "original": "provenance/original/wheel_training_groups.npz",
+      "original_sha256": "2387a3c77b683cf6026f5b4e3a5c917f53dbffd97074b0485bfd88db15e00bca",
+      "portable_sha256": "500b9435eec67f01d1b9642c1759f864efdccc874fc245747718f7c6e2c71e1e",
+      "modified_fields": [
+        "format"
+      ],
+      "unchanged_array_count": 60
+    },
+    "assets/seam_pairs.npz": {
+      "original": "provenance/original/seam_pairs.npz",
+      "original_sha256": "7d2c8e8eedf25001ac007fe1666df34539e68c313beb1517b92b8d05102c759e",
+      "portable_sha256": "b41e09b08a7e2eab6c5592f014b6c9053ce91a7c1f7a74c9d89c174d5c3ee5b2",
+      "modified_fields": [
+        "format"
+      ],
+      "unchanged_array_count": 6
+    },
+    "assets/mesh_report.json": {
+      "original": "provenance/original/mesh_report.json",
+      "original_sha256": "6460e4689670c19ef3cf38f7f844294feadef66adcee26f756c50cba0280c472",
+      "portable_sha256": "17fe1d65840366b0c8d8a0615475e63cc0cfeff9d50cb5e709fcd0eb4ac0cc4c",
+      "modified_fields": [
+        "sha256.material_weights.json",
+        "sha256.seam_pairs.npz",
+        "sha256.wheel_training_groups.npz"
+      ]
+    },
+    "manifest.json": {
+      "original": "provenance/original/toyota_manifest.json",
+      "original_sha256": "2d710d94b10e8816f77cf3ada87739cf6418b5f5db205fdec3a5eccf9c4acaef",
+      "portable_sha256": "2f7573fd0cdc299de1c32b905e8018d60a681a49404000457db21c91d40b3907",
+      "modified_fields": [
+        "format",
+        "dataset_dir",
+        "material_weights",
+        "material_weights_sha256",
+        "partition.wheel_groups_sha256",
+        "partition.seam_pairs_sha256",
+        "seam_edges",
+        "seam_edges_sha256"
+      ],
+      "original_manifest_signature": "697911dadcd6ff9dfe55eb9f22d45b5fce6d5a0eeb831367927cd51bc251e8ba",
+      "portable_manifest_signature": "2fc232f68ed57c1141e4a74652cc6df330df0400222800de593ceab402a8d39f"
+    }
+  },
+  "file_sha256": {
+    "assets/material_weights.json": {
+      "bytes": 38216,
+      "sha256": "91c029c3d2872ca3dfa08ef0b4cea2114b646faf7c9be36d893e2ba719d9605a"
+    },
+    "assets/mesh_5617.npz": {
+      "bytes": 183368358,
+      "sha256": "42efe17d1a988dbef4ab3f9abf4df9a74eecd6addb7148b201e960462c7d5862"
+    },
+    "assets/mesh_report.json": {
+      "bytes": 2654,
+      "sha256": "17fe1d65840366b0c8d8a0615475e63cc0cfeff9d50cb5e709fcd0eb4ac0cc4c"
+    },
+    "assets/region_sdf_5617.pt": {
+      "bytes": 72002149,
+      "sha256": "47706de6701aa99195fa1bfbc0977321a42571910a4e6e22f9e1d151e3a43a54"
+    },
+    "assets/seam_pairs.npz": {
+      "bytes": 441153,
+      "sha256": "b41e09b08a7e2eab6c5592f014b6c9053ce91a7c1f7a74c9d89c174d5c3ee5b2"
+    },
+    "assets/training_region_ids.npy": {
+      "bytes": 22596,
+      "sha256": "b2212e41b2c834ab7da91959cb72e5ca3345981ccd6e7b90d6c945d33e47c104"
+    },
+    "assets/validation_node_rows.npy": {
+      "bytes": 237312,
+      "sha256": "d3acb9bee0004749c3c91917bfb67765af5abab810be33e7fff51d3deaa015e6"
+    },
+    "assets/validation_patches.json": {
+      "bytes": 1836,
+      "sha256": "0672696adabfe79de65fb359b3f738bc33c08bac9d2508b36a0baf79b405e276"
+    },
+    "assets/wheel_training_groups.npz": {
+      "bytes": 973811,
+      "sha256": "500b9435eec67f01d1b9642c1759f864efdccc874fc245747718f7c6e2c71e1e"
+    },
+    "geometry/Toyota_Yaris_116_车轮圆环分区.vtu": {
+      "bytes": 51064692,
+      "sha256": "060f7d3d55140d3710e4c06fb629115ac38dae44698af4355a0e5cda1483e6b9"
+    },
+    "geometry/一级分区与材料索引.json": {
+      "bytes": 2124272,
+      "sha256": "8a021a50c60d73c19602fc925e8b87aaf186553734be249586ac966eb5a0a5f9"
+    },
+    "geometry/三维网格核验.json": {
+      "bytes": 2930,
+      "sha256": "e800dd7e8944998de2ba3c74e536bb96839f7e85bf298e56c3d91049912050e7"
+    },
+    "geometry/二级分区与节点映射.npz": {
+      "bytes": 23469328,
+      "sha256": "e68b17b44bc8909b7d027d58959e51276474f56e4763d92375464f4067fd9a87"
+    },
+    "geometry/二级分区索引.csv": {
+      "bytes": 274961,
+      "sha256": "fd9fa8abf85d4bd311bc200c1cd55e9afdbe107a6697b7c5542d61993b52a4a1"
+    },
+    "geometry/四轮圆环分区正视图.png": {
+      "bytes": 321022,
+      "sha256": "1260239dfb683c9ec01516622b906c8b53c37971a9af8b6b314309571f94cefe"
+    },
+    "geometry/四轮圆环索引.csv": {
+      "bytes": 1032,
+      "sha256": "430c3283b1166ddb844b5439770a3c33edd5653463e40a71c1511ba9b9e91bea"
+    },
+    "geometry/整车与车轮圆环三维图.png": {
+      "bytes": 377926,
+      "sha256": "07a206a9a88a033ef46f0fc79602ac2baa8e4b3c1b71632d2354ffaedb97b4b2"
+    },
+    "geometry/映射核验.json": {
+      "bytes": 2224,
+      "sha256": "f665903621cc4c3095e6d64555cb6bc9a62a35e7aa6027f82682dbdd983103e2"
+    },
+    "geometry/车轮圆环分区说明.md": {
+      "bytes": 2885,
+      "sha256": "252c3d7a4614d960b4d098f1b24c1e83cef6aeb350a50315c6f42ad2b418a2dc"
+    },
+    "geometry/轮心轮轴与圆环参数.json": {
+      "bytes": 29755,
+      "sha256": "aff09b93630f798fb7206b1af89e5ce5ab45a4da928fae6f3ea3620cfbe3172b"
+    },
+    "geometry/连接卡与部件索引.json": {
+      "bytes": 3271933,
+      "sha256": "363e4b0a9be616a68bde4e304cc86a6b75b59cd6169d128d4c43d88d2c6792ca"
+    },
+    "provenance/dataset_identity/dataset_manifest.json": {
+      "bytes": 26156,
+      "sha256": "d6da97e165c5fba67c62c2720ae4d4b6e69880d6465acee83c2bac8813497552"
+    },
+    "provenance/dataset_identity/Toyota_yaris_116_front_v4.h5": {
+      "bytes": 117812,
+      "sha256": "7e21bec094551c48a9539b080f13053ffa4f01b32986db8d9094a33e92b528f5"
+    },
+    "provenance/original/material_weights.json": {
+      "bytes": 41449,
+      "sha256": "5f3765c32bf860302ba7b15f421147e9b6a61da05f885faa9a6361ec45699290"
+    },
+    "provenance/original/mesh_report.json": {
+      "bytes": 2748,
+      "sha256": "6460e4689670c19ef3cf38f7f844294feadef66adcee26f756c50cba0280c472"
+    },
+    "provenance/original/seam_pairs.npz": {
+      "bytes": 441161,
+      "sha256": "7d2c8e8eedf25001ac007fe1666df34539e68c313beb1517b92b8d05102c759e"
+    },
+    "provenance/original/toyota_manifest.json": {
+      "bytes": 113223,
+      "sha256": "2d710d94b10e8816f77cf3ada87739cf6418b5f5db205fdec3a5eccf9c4acaef"
+    },
+    "provenance/original/wheel_training_groups.npz": {
+      "bytes": 973821,
+      "sha256": "2387a3c77b683cf6026f5b4e3a5c917f53dbffd97074b0485bfd88db15e00bca"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# These experiment files have byte-level checksums in the manifest.
+* -text
+assets/mesh_5617.npz filter=lfs diff=lfs merge=lfs -text
+assets/region_sdf_5617.pt filter=lfs diff=lfs merge=lfs -text
+geometry/*.npz filter=lfs diff=lfs merge=lfs -text
+geometry/*.vtu filter=lfs diff=lfs merge=lfs -text

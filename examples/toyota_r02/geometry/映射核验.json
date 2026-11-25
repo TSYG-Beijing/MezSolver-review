@@ -1,0 +1,63 @@
+{
+  "nodes": 1488757,
+  "cells": 1519684,
+  "strict_leaves": 5542,
+  "wheel_counts_by_id": {
+    "1": {
+      "nodes": 10201,
+      "cells": 10181,
+      "rings": 6
+    },
+    "2": {
+      "nodes": 10201,
+      "cells": 10181,
+      "rings": 6
+    },
+    "3": {
+      "nodes": 10201,
+      "cells": 10181,
+      "rings": 6
+    },
+    "4": {
+      "nodes": 10201,
+      "cells": 10181,
+      "rings": 6
+    }
+  },
+  "verified_identical_nonwheel_geometry_nodes": 1447953,
+  "verified_identical_nonwheel_geometry_and_strict_cells": 1478960,
+  "verified_identical_nonwheel_node_to_leaf_rows": 1447953,
+  "all_source_node_and_element_identifiers_unchanged": true,
+  "all_primary_region_ids_unchanged": true,
+  "wheel_ring_indices_positive_and_contiguous_outward": true,
+  "nodes_and_cells_share_ring_ids": true,
+  "radius_only_recalculation_on_reference_vtu": {
+    "1": {
+      "nodes": 10201,
+      "cells": 10181
+    },
+    "2": {
+      "nodes": 10201,
+      "cells": 10181
+    },
+    "3": {
+      "nodes": 10201,
+      "cells": 10181
+    },
+    "4": {
+      "nodes": 10201,
+      "cells": 10181
+    }
+  },
+  "all_node_to_leaf_memberships": 1676991,
+  "points_without_structural_endpoints": 139,
+  "strict_subregion_ids_consecutive": false,
+  "notes": [
+    "Use NodeRingIndex/CellRingIndex for the one-based concentric ring number within a wheel; 0 denotes points/cells outside the four wheel assemblies.",
+    "old_node_region is the original neural-network nodal patch ID. node_geometry/cell_geometry carry revised active geometric identifiers.",
+    "node_assignment_source is 0 for body incident-element assignment, 2 for orphan points, 3 for wheel points assigned directly by cylindrical radius.",
+    "SubregionID gives the explicit row key for each strict element region. Use searchsorted on SubregionID for a known region ID; gaps are permitted.",
+    "CSR NodeToSubregionIndptr and NodeToSubregionIDs describe every real subregion incident to a mesh vertex, including shared interfaces.",
+    "ElementRow is zero-based within solver storage family. Beams and discrete elements share the same storage family; SourceElementKind distinguishes them."
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "scope": "Read-only CPU preflight of the public example dataset reader against the Toyota R02 dataset on an actual training case, with the exact portable manifest and normalized assets. No optimizer, training, model forward or validation/test labels.",
+  "hdf5_sources_checked": {
+    "nas": {
+      "full_check_inputs_exit_ok": false,
+      "inventory_error": "OSError: HDF5 chunk read failed for F001, frame 1, nodes 0:256 in <BUNDLE>/training_hdf5. Check the data mount or verified local mirror.",
+      "sample_training_response_read": "failed",
+      "sample_failure": "Can't synchronously read data (wrong B-tree signature)"
+    },
+    "current_verified_training_mirror": {
+      "full_check_inputs_exit_ok": true,
+      "inventory_output": [
+        "Verified 1,488,757 nodes, 5,617 regions, 59,296 validation nodes and 116 cases.",
+        "Verified 116 response headers, mask and shell-activity shapes, and two displacement chunks from F001. No test labels read."
+      ]
+    }
+  },
+  "successful_training_response_source": "current_verified_training_mirror",
+  "successful_training_response_path": "/dev/shm/yaris_direct_io_20261123",
+  "execution": "CPU, no CUDA devices visible",
+  "manifest_sha256": "2f7573fd0cdc299de1c32b905e8018d60a681a49404000457db21c91d40b3907",
+  "inputs_sha256": {
+    "mesh_5617.npz": "42efe17d1a988dbef4ab3f9abf4df9a74eecd6addb7148b201e960462c7d5862",
+    "region_sdf_5617.pt": "47706de6701aa99195fa1bfbc0977321a42571910a4e6e22f9e1d151e3a43a54",
+    "material_weights.json": "91c029c3d2872ca3dfa08ef0b4cea2114b646faf7c9be36d893e2ba719d9605a",
+    "wheel_training_groups.npz": "500b9435eec67f01d1b9642c1759f864efdccc874fc245747718f7c6e2c71e1e",
+    "seam_pairs.npz": "b41e09b08a7e2eab6c5592f014b6c9053ce91a7c1f7a74c9d89c174d5c3ee5b2",
+    "validation_node_rows.npy": "d3acb9bee0004749c3c91917bfb67765af5abab810be33e7fff51d3deaa015e6",
+    "validation_patches.json": "0672696adabfe79de65fb359b3f738bc33c08bac9d2508b36a0baf79b405e276"
+  },
+  "bundled_check_inputs_sha256": "3f8d8bb30c6dfb61a9d897ea9cb53e7f6edc112af7ba741e95f99b1576d110f6",
+  "public_reader_source_sha256": {
+    "__init__.py": "4848e5a4c57b7aaa4a162a84f8adc59af7c11a95c1b2b42b45cd128205ff44e3",
+    "config.py": "4b7971a6e786a0ac8ac7fe2d2e3c890abf31e5aacd0ca0ed4c8c691014442831",
+    "data.py": "480f089a61184dacf231dd7b0e977e9b6503ac95cb3560349ae062766e35a684",
+    "graph.py": "8955a0a6e61cafb237f25c62a1327406a6648d7466b9d1d3f1051498a10ca064",
+    "losses.py": "df81b3ed308f50656a7819e11f1f94e9fd735886adb22262307384456c06cba1",
+    "materials.py": "ae05849a531e5034704f7b157d8b24b2b9105e9349fac3b61d5e911c45a6f7fb",
+    "objective.py": "73066f084652d6ce60e0af9cfdc00660eafe314c016f96bf43b8f2c5a2d82d4d",
+    "scan_backend.py": "d7a571ccdac4350beec4ef24057f4ae658931eb65bd189c6c959182abb9ba406",
+    "temporal_config.py": "18140ff230937c479e22818e682277fcd1117276a09d483f57a84976393bf7c9",
+    "temporal_objective.py": "7512500d3ba27b710f125591832500b34e348a897ac8413262c6645ca5f71817",
+    "temporal_seams.py": "4d1b75f3e065e094874969a8c72244f0cbce99313d02adb5a8b15dadcc16379f",
+    "temporal_training.py": "67d165d50d134a1565162b266ed42b5283255b50932a69f60dd3045b5d665533",
+    "training_runtime.py": "81d173dc5299f91bef0d5f266652241344b5c4280a2421bc15560ba1d2147da9",
+    "validation.py": "9b170ee95674996fd7d02458d404b407aa13e238e3712777baee77930a44bae8",
+    "wheel_validation.py": "679af982044f8903b73aca63ce4d809e20ca5472474ec113a36e693b7877c0b0",
+    "wheels.py": "5fbc1996e490c953b12421e2df7e45466da9f7bdb9db9ea7cc76122d91323fd0"
+  },
+  "verified_small_dataset_files": {
+    "Toyota_yaris_116_front_v4.h5": "7e21bec094551c48a9539b080f13053ffa4f01b32986db8d9094a33e92b528f5",
+    "dataset_manifest.json": "d6da97e165c5fba67c62c2720ae4d4b6e69880d6465acee83c2bac8813497552"
+  },
+  "dataset_cases_found": 116,
+  "splits": {
+    "train": 92,
+    "val": 12,
+    "test": 12
+  },
+  "mesh_nodes": 1488757,
+  "training_regions": 5617,
+  "wheel_groups": [
+    "front_left",
+    "front_right",
+    "rear_left",
+    "rear_right"
+  ],
+  "physical_seam_edges": 44598,
+  "validation_panel_nodes": 59296,
+  "validation_panel_patches": 215,
+  "training_case_sample": {
+    "id": "F001",
+    "frame_index": 1,
+    "case_fields_shape": [
+      31,
+      1488757,
+      5
+    ],
+    "valid_displacement_training_shape": [
+      31,
+      1488757
+    ],
+    "sample_shape": [
+      128,
+      3
+    ],
+    "valid_node_count": 128,
+    "finite_on_valid_rows": true,
+    "shell_deletion_table_read": true
+  },
+  "training_tensor_channels": [
+    "U1",
+    "U2",
+    "U3"
+  ],
+  "reader_access_log": [
+    [
+      "F001",
+      1
+    ]
+  ],
+  "sample_hdf5_dtype": "float32",
+  "python": "3.11.13",
+  "torch": "2.8.0+cu128",
+  "h5py": "3.16.0",
+  "successful_training_case_sha256_matches_dataset_inventory": true,
+  "sample_case_sha256": "5efab669b92af18899936f69b50808a590f54b2f1727f380996dedcbe5dc0b97",
+  "dataset_sha256sums_file_sha256": "fe720e8425533ad4acf573452f50154ece05588b38edec599a58e780b779b14b",
+  "source_archive_sha256": "b480c3603da558046f3ef55c7162bed13e9b60b14b07f2404ef14b9874764c30"
+}

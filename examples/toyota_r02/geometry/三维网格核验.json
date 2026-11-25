@@ -1,0 +1,142 @@
+{
+  "mesh_points": 1488757,
+  "mesh_cells": 1519684,
+  "wheels": {
+    "front_left": {
+      "nodes": {
+        "checked": 10201,
+        "radius_range_mm": [
+          28.208514656374355,
+          302.6895015081165
+        ],
+        "occupied_10_degree_bins_per_ring": [
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
+        "rotation_test_degrees": 137
+      },
+      "cells": {
+        "checked": 10181,
+        "radius_range_mm": [
+          31.3809752670661,
+          302.5962072678311
+        ],
+        "occupied_10_degree_bins_per_ring": [
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
+        "rotation_test_degrees": 137
+      }
+    },
+    "front_right": {
+      "nodes": {
+        "checked": 10201,
+        "radius_range_mm": [
+          28.208514656374355,
+          302.6895015081165
+        ],
+        "occupied_10_degree_bins_per_ring": [
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
+        "rotation_test_degrees": 137
+      },
+      "cells": {
+        "checked": 10181,
+        "radius_range_mm": [
+          31.538634827919434,
+          302.5962072678311
+        ],
+        "occupied_10_degree_bins_per_ring": [
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
+        "rotation_test_degrees": 137
+      }
+    },
+    "rear_left": {
+      "nodes": {
+        "checked": 10201,
+        "radius_range_mm": [
+          28.197364862706483,
+          302.6890272857373
+        ],
+        "occupied_10_degree_bins_per_ring": [
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
+        "rotation_test_degrees": 137
+      },
+      "cells": {
+        "checked": 10181,
+        "radius_range_mm": [
+          31.093309813006847,
+          302.5958566408702
+        ],
+        "occupied_10_degree_bins_per_ring": [
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
+        "rotation_test_degrees": 137
+      }
+    },
+    "rear_right": {
+      "nodes": {
+        "checked": 10201,
+        "radius_range_mm": [
+          28.197364862706483,
+          302.6890272857373
+        ],
+        "occupied_10_degree_bins_per_ring": [
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
+        "rotation_test_degrees": 137
+      },
+      "cells": {
+        "checked": 10181,
+        "radius_range_mm": [
+          31.093309813006847,
+          302.5958566408702
+        ],
+        "occupied_10_degree_bins_per_ring": [
+          36,
+          36,
+          36,
+          36,
+          36,
+          36
+        ],
+        "rotation_test_degrees": 137
+      }
+    }
+  }
+}

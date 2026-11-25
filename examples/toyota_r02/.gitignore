@@ -1,0 +1,5 @@
+/training_hdf5
+/cases/
+/runs/
+/mirror-progress.json
+__pycache__/

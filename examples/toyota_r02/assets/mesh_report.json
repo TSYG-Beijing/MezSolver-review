@@ -1,0 +1,94 @@
+{
+  "node_count": 1488757,
+  "node_training_regions": 5617,
+  "element_geometry_regions": 5518,
+  "strict_element_regions": 5542,
+  "sizes_quantiles": [
+    1.0,
+    2.0,
+    3.0,
+    832.4000000000005,
+    3075.5200000000077,
+    10808.0
+  ],
+  "mixed_old_topology_owner_regions": 72,
+  "orphan_points": 139,
+  "directed_region_adjacencies": 5032,
+  "seam_edges": 44598,
+  "seam_core_pairs": 1835,
+  "old_mesh_sha256": "b547af8e35486cf16965a40102cf61ea11d94563bd76218cfc6f8ee2dd474bb1",
+  "mesh_sha256": "42efe17d1a988dbef4ab3f9abf4df9a74eecd6addb7148b201e960462c7d5862",
+  "annular_mapping_sha256": "e68b17b44bc8909b7d027d58959e51276474f56e4763d92375464f4067fd9a87",
+  "geometry_input_only": true,
+  "wheel_summary": {
+    "front_left": {
+      "nodes": 10201,
+      "patches": [
+        5593,
+        5594,
+        5595,
+        5596,
+        5597,
+        5598
+      ],
+      "physical_edges": 20386,
+      "interface_edges": 1291
+    },
+    "front_right": {
+      "nodes": 10201,
+      "patches": [
+        5599,
+        5600,
+        5601,
+        5602,
+        5603,
+        5604
+      ],
+      "physical_edges": 20386,
+      "interface_edges": 1291
+    },
+    "rear_left": {
+      "nodes": 10201,
+      "patches": [
+        5605,
+        5606,
+        5607,
+        5608,
+        5609,
+        5610
+      ],
+      "physical_edges": 20386,
+      "interface_edges": 1283
+    },
+    "rear_right": {
+      "nodes": 10201,
+      "patches": [
+        5611,
+        5612,
+        5613,
+        5614,
+        5615,
+        5616
+      ],
+      "physical_edges": 20386,
+      "interface_edges": 1283
+    }
+  },
+  "whole_wheel_count": 24,
+  "core_id_mapping": "training_region_ids[compact training patch] = released node GeometryRegionID",
+  "material_policy": "Point-level original owner weights; core part embedding uses modal topology owner. Full node memberships retained.",
+  "feature_checks": {
+    "original_normals_reproduced": true,
+    "original_sdf_reproduced": true,
+    "all_compact_ids_round_trip": true,
+    "body_and_wheel_assignment_exact": true
+  },
+  "sha256": {
+    "material_weights.json": "91c029c3d2872ca3dfa08ef0b4cea2114b646faf7c9be36d893e2ba719d9605a",
+    "mesh_5617.npz": "42efe17d1a988dbef4ab3f9abf4df9a74eecd6addb7148b201e960462c7d5862",
+    "region_sdf_5617.pt": "47706de6701aa99195fa1bfbc0977321a42571910a4e6e22f9e1d151e3a43a54",
+    "seam_pairs.npz": "b41e09b08a7e2eab6c5592f014b6c9053ce91a7c1f7a74c9d89c174d5c3ee5b2",
+    "training_region_ids.npy": "b2212e41b2c834ab7da91959cb72e5ca3345981ccd6e7b90d6c945d33e47c104",
+    "wheel_training_groups.npz": "500b9435eec67f01d1b9642c1759f864efdccc874fc245747718f7c6e2c71e1e"
+  }
+}

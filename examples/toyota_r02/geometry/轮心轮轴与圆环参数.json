@@ -1,0 +1,1011 @@
+{
+  "wheels": {
+    "front_left": {
+      "wheel_id": 1,
+      "center_mm": [
+        -777.5614352459737,
+        742.1542851711231,
+        302.5119278775493
+      ],
+      "axis": [
+        0.006375532908482104,
+        0.9999768353610015,
+        0.0023835522921763132
+      ],
+      "thresholds_mm": [
+        90.0,
+        150.0,
+        208.0,
+        250.0,
+        285.0
+      ],
+      "boundaries_mm": [
+        90.0,
+        150.0,
+        208.0,
+        250.0,
+        285.0
+      ],
+      "beads": {
+        "inner": {
+          "center_mm": [
+            -778.0310693830609,
+            668.4940492468266,
+            302.33635078618977
+          ],
+          "normal": [
+            0.00048050097883760973,
+            0.9999994779294955,
+            0.0009018090407705015
+          ],
+          "nodes": 132,
+          "mean_radius_mm": 204.52243556281215,
+          "radial_std_mm": 0.2828221113792662,
+          "min_radius_mm": 203.72772851827312,
+          "max_radius_mm": 205.06648508379354,
+          "plane_rms_mm": 0.20791711589128706
+        },
+        "outer": {
+          "center_mm": [
+            -777.0918011088866,
+            815.8145210954197,
+            302.68750496890885
+          ],
+          "normal": [
+            0.00014831279464099368,
+            0.9999997756697565,
+            -0.0006531950328876324
+          ],
+          "nodes": 132,
+          "mean_radius_mm": 204.74547038878953,
+          "radial_std_mm": 0.291069298895657,
+          "min_radius_mm": 203.45169860090826,
+          "max_radius_mm": 205.2211681789207,
+          "plane_rms_mm": 0.2843068069654326
+        },
+        "separation_mm": 147.32388455319455
+      },
+      "bands": [
+        {
+          "ring": 1,
+          "ring_index": 1,
+          "geometry_id": 16105,
+          "nodes": 502,
+          "cells": 507,
+          "r_lower_mm": 0.0,
+          "r_upper_mm": 90.0,
+          "node_radius": {
+            "min_radius_mm": 28.208514656374355,
+            "max_radius_mm": 89.98142711821268,
+            "max_angular_gap_deg": 4.632390304399568,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 31.3809752670661,
+            "max_radius_mm": 89.83727721472466,
+            "max_angular_gap_deg": 4.980236068182651,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000212": 507
+          },
+          "strict_subregions": {
+            "5817": 507
+          }
+        },
+        {
+          "ring": 2,
+          "ring_index": 2,
+          "geometry_id": 16106,
+          "nodes": 920,
+          "cells": 927,
+          "r_lower_mm": 90.0,
+          "r_upper_mm": 150.0,
+          "node_radius": {
+            "min_radius_mm": 90.2147630952561,
+            "max_radius_mm": 149.99776573500023,
+            "max_angular_gap_deg": 3.370886841519235,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 90.2313369909253,
+            "max_radius_mm": 148.92241779919897,
+            "max_angular_gap_deg": 3.2561230524323865,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000212": 927
+          },
+          "strict_subregions": {
+            "5818": 927
+          }
+        },
+        {
+          "ring": 3,
+          "ring_index": 3,
+          "geometry_id": 16107,
+          "nodes": 4092,
+          "cells": 4057,
+          "r_lower_mm": 150.0,
+          "r_upper_mm": 208.0,
+          "node_radius": {
+            "min_radius_mm": 150.00390247083644,
+            "max_radius_mm": 205.21988773375259,
+            "max_angular_gap_deg": 1.6782508404506575,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 150.4597336685094,
+            "max_radius_mm": 207.23882037679925,
+            "max_angular_gap_deg": 1.7565694632957911,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000210": 3036,
+            "2000211": 132,
+            "2000212": 889
+          },
+          "strict_subregions": {
+            "5816": 132,
+            "5819": 889,
+            "5821": 3036
+          }
+        },
+        {
+          "ring": 4,
+          "ring_index": 4,
+          "geometry_id": 16108,
+          "nodes": 1203,
+          "cells": 1340,
+          "r_lower_mm": 208.0,
+          "r_upper_mm": 250.0,
+          "node_radius": {
+            "min_radius_mm": 208.59216363053773,
+            "max_radius_mm": 244.72662649549625,
+            "max_angular_gap_deg": 2.500556266037987,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 208.0211245802442,
+            "max_radius_mm": 249.42589190274379,
+            "max_angular_gap_deg": 2.3407241937997916,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000211": 1340
+          },
+          "strict_subregions": {
+            "5809": 670,
+            "5810": 670
+          }
+        },
+        {
+          "ring": 5,
+          "ring_index": 5,
+          "geometry_id": 16109,
+          "nodes": 1206,
+          "cells": 1135,
+          "r_lower_mm": 250.0,
+          "r_upper_mm": 285.0,
+          "node_radius": {
+            "min_radius_mm": 250.42042027056848,
+            "max_radius_mm": 283.4458425426387,
+            "max_angular_gap_deg": 2.66739359759404,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 254.96275665848427,
+            "max_radius_mm": 284.95720155860016,
+            "max_angular_gap_deg": 2.6165268641409565,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000211": 1135
+          },
+          "strict_subregions": {
+            "5811": 536,
+            "5813": 599
+          }
+        },
+        {
+          "ring": 6,
+          "ring_index": 6,
+          "geometry_id": 16110,
+          "nodes": 2278,
+          "cells": 2215,
+          "r_lower_mm": 285.0,
+          "r_upper_mm": null,
+          "node_radius": {
+            "min_radius_mm": 285.2565773561743,
+            "max_radius_mm": 302.6895015081165,
+            "max_angular_gap_deg": 2.6659706223906987,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 285.0320087052405,
+            "max_radius_mm": 302.5962072678311,
+            "max_angular_gap_deg": 2.713711220522033,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000211": 339,
+            "2000487": 1876
+          },
+          "strict_subregions": {
+            "5812": 1876,
+            "5814": 205,
+            "5815": 134
+          }
+        }
+      ],
+      "nodes": 10201,
+      "cells": 10181,
+      "part_ids": [
+        2000211,
+        2000487,
+        2000210,
+        2000212
+      ]
+    },
+    "front_right": {
+      "wheel_id": 2,
+      "center_mm": [
+        -777.5614352459737,
+        -742.1542851711231,
+        302.5119278775493
+      ],
+      "axis": [
+        0.006375532908482104,
+        -0.9999768353610015,
+        0.0023835522921763132
+      ],
+      "thresholds_mm": [
+        90.0,
+        150.0,
+        208.0,
+        250.0,
+        285.0
+      ],
+      "boundaries_mm": [
+        90.0,
+        150.0,
+        208.0,
+        250.0,
+        285.0
+      ],
+      "beads": {
+        "inner": {
+          "center_mm": [
+            -778.0310693830609,
+            -668.4940492468266,
+            302.33635078618977
+          ],
+          "normal": [
+            -0.00048050097883760973,
+            0.9999994779294955,
+            -0.0009018090407705015
+          ],
+          "nodes": 132,
+          "mean_radius_mm": 204.52243556281215,
+          "radial_std_mm": 0.2828221113792662,
+          "min_radius_mm": 203.72772851827312,
+          "max_radius_mm": 205.06648508379354,
+          "plane_rms_mm": 0.20791711589128706
+        },
+        "outer": {
+          "center_mm": [
+            -777.0918011088866,
+            -815.8145210954197,
+            302.68750496890885
+          ],
+          "normal": [
+            -0.00014831279464099368,
+            0.9999997756697565,
+            0.0006531950328876324
+          ],
+          "nodes": 132,
+          "mean_radius_mm": 204.74547038878953,
+          "radial_std_mm": 0.291069298895657,
+          "min_radius_mm": 203.45169860090826,
+          "max_radius_mm": 205.2211681789207,
+          "plane_rms_mm": 0.2843068069654326
+        },
+        "separation_mm": 147.32388455319455
+      },
+      "bands": [
+        {
+          "ring": 1,
+          "ring_index": 1,
+          "geometry_id": 16111,
+          "nodes": 502,
+          "cells": 507,
+          "r_lower_mm": 0.0,
+          "r_upper_mm": 90.0,
+          "node_radius": {
+            "min_radius_mm": 28.208514656374355,
+            "max_radius_mm": 89.98142711821268,
+            "max_angular_gap_deg": 4.632390304399568,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 31.538634827919434,
+            "max_radius_mm": 89.83727721472466,
+            "max_angular_gap_deg": 4.980236068182651,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000368": 507
+          },
+          "strict_subregions": {
+            "5795": 507
+          }
+        },
+        {
+          "ring": 2,
+          "ring_index": 2,
+          "geometry_id": 16112,
+          "nodes": 920,
+          "cells": 927,
+          "r_lower_mm": 90.0,
+          "r_upper_mm": 150.0,
+          "node_radius": {
+            "min_radius_mm": 90.2147630952561,
+            "max_radius_mm": 149.99776573500023,
+            "max_angular_gap_deg": 3.370886841519235,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 90.2313369909253,
+            "max_radius_mm": 148.92241779919897,
+            "max_angular_gap_deg": 3.2561230524323865,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000368": 927
+          },
+          "strict_subregions": {
+            "5796": 927
+          }
+        },
+        {
+          "ring": 3,
+          "ring_index": 3,
+          "geometry_id": 16113,
+          "nodes": 4092,
+          "cells": 4057,
+          "r_lower_mm": 150.0,
+          "r_upper_mm": 208.0,
+          "node_radius": {
+            "min_radius_mm": 150.00390247083644,
+            "max_radius_mm": 205.21988773375259,
+            "max_angular_gap_deg": 1.6782508404506575,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 150.4597336685094,
+            "max_radius_mm": 207.23882037679925,
+            "max_angular_gap_deg": 1.7565694632957911,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000366": 3036,
+            "2000367": 132,
+            "2000368": 889
+          },
+          "strict_subregions": {
+            "5786": 3036,
+            "5794": 132,
+            "5797": 889
+          }
+        },
+        {
+          "ring": 4,
+          "ring_index": 4,
+          "geometry_id": 16114,
+          "nodes": 1203,
+          "cells": 1340,
+          "r_lower_mm": 208.0,
+          "r_upper_mm": 250.0,
+          "node_radius": {
+            "min_radius_mm": 208.59216363053773,
+            "max_radius_mm": 244.72662649549625,
+            "max_angular_gap_deg": 2.500556266037987,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 208.0211245802442,
+            "max_radius_mm": 249.42589190274379,
+            "max_angular_gap_deg": 2.3407241937997916,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000367": 1340
+          },
+          "strict_subregions": {
+            "5787": 670,
+            "5788": 670
+          }
+        },
+        {
+          "ring": 5,
+          "ring_index": 5,
+          "geometry_id": 16115,
+          "nodes": 1206,
+          "cells": 1135,
+          "r_lower_mm": 250.0,
+          "r_upper_mm": 285.0,
+          "node_radius": {
+            "min_radius_mm": 250.42042027056848,
+            "max_radius_mm": 283.4458425426387,
+            "max_angular_gap_deg": 2.66739359759404,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 254.96275665848427,
+            "max_radius_mm": 284.95720155860016,
+            "max_angular_gap_deg": 2.6165268641409565,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000367": 1135
+          },
+          "strict_subregions": {
+            "5789": 536,
+            "5791": 599
+          }
+        },
+        {
+          "ring": 6,
+          "ring_index": 6,
+          "geometry_id": 16116,
+          "nodes": 2278,
+          "cells": 2215,
+          "r_lower_mm": 285.0,
+          "r_upper_mm": null,
+          "node_radius": {
+            "min_radius_mm": 285.2565773561743,
+            "max_radius_mm": 302.6895015081165,
+            "max_angular_gap_deg": 2.6659706223906987,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 285.0320087052405,
+            "max_radius_mm": 302.5962072678311,
+            "max_angular_gap_deg": 2.713711220522033,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000367": 339,
+            "2000490": 1876
+          },
+          "strict_subregions": {
+            "5790": 1876,
+            "5792": 205,
+            "5793": 134
+          }
+        }
+      ],
+      "nodes": 10201,
+      "cells": 10181,
+      "part_ids": [
+        2000367,
+        2000490,
+        2000366,
+        2000368
+      ]
+    },
+    "rear_left": {
+      "wheel_id": 3,
+      "center_mm": [
+        -3316.3771361949834,
+        730.1917439009953,
+        301.8732330945644
+      ],
+      "axis": [
+        0.007951522854600962,
+        0.9999628724313815,
+        0.003320699184431872
+      ],
+      "thresholds_mm": [
+        90.0,
+        150.0,
+        208.0,
+        250.0,
+        285.0
+      ],
+      "boundaries_mm": [
+        90.0,
+        150.0,
+        208.0,
+        250.0,
+        285.0
+      ],
+      "beads": {
+        "inner": {
+          "center_mm": [
+            -3316.962860718807,
+            656.5325482970806,
+            301.628623982055
+          ],
+          "normal": [
+            0.0023206937370712525,
+            0.9999967775096222,
+            0.0010292477591691863
+          ],
+          "nodes": 132,
+          "mean_radius_mm": 204.52244921966744,
+          "radial_std_mm": 0.2828437516364345,
+          "min_radius_mm": 203.72779362207046,
+          "max_radius_mm": 205.06656067695178,
+          "plane_rms_mm": 0.2078678346247162
+        },
+        "outer": {
+          "center_mm": [
+            -3315.79141167116,
+            803.8509395049101,
+            302.11784220707386
+          ],
+          "normal": [
+            0.002208001515275712,
+            0.9999974074518657,
+            -0.0005566137401216698
+          ],
+          "nodes": 132,
+          "mean_radius_mm": 204.74575577474693,
+          "radial_std_mm": 0.291178697479326,
+          "min_radius_mm": 203.4524027127572,
+          "max_radius_mm": 205.2216470782578,
+          "plane_rms_mm": 0.28429407401640894
+        },
+        "separation_mm": 147.3238609845874
+      },
+      "bands": [
+        {
+          "ring": 1,
+          "ring_index": 1,
+          "geometry_id": 16117,
+          "nodes": 501,
+          "cells": 507,
+          "r_lower_mm": 0.0,
+          "r_upper_mm": 90.0,
+          "node_radius": {
+            "min_radius_mm": 28.197364862706483,
+            "max_radius_mm": 89.7253827608304,
+            "max_angular_gap_deg": 4.781397220491633,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 31.093309813006847,
+            "max_radius_mm": 89.78584147343757,
+            "max_angular_gap_deg": 4.90547786579724,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000362": 507
+          },
+          "strict_subregions": {
+            "5806": 507
+          }
+        },
+        {
+          "ring": 2,
+          "ring_index": 2,
+          "geometry_id": 16118,
+          "nodes": 919,
+          "cells": 927,
+          "r_lower_mm": 90.0,
+          "r_upper_mm": 150.0,
+          "node_radius": {
+            "min_radius_mm": 90.00144838507069,
+            "max_radius_mm": 149.9156735464317,
+            "max_angular_gap_deg": 3.3414776620905555,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 90.10238797716242,
+            "max_radius_mm": 149.37923413756138,
+            "max_angular_gap_deg": 3.23990583568056,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000362": 927
+          },
+          "strict_subregions": {
+            "5807": 927
+          }
+        },
+        {
+          "ring": 3,
+          "ring_index": 3,
+          "geometry_id": 16119,
+          "nodes": 4094,
+          "cells": 4057,
+          "r_lower_mm": 150.0,
+          "r_upper_mm": 208.0,
+          "node_radius": {
+            "min_radius_mm": 150.01724135995437,
+            "max_radius_mm": 205.22036271484492,
+            "max_angular_gap_deg": 1.8468026181978365,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 150.7605822654296,
+            "max_radius_mm": 207.23853521913642,
+            "max_angular_gap_deg": 1.862965137562163,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000360": 132,
+            "2000361": 3036,
+            "2000362": 889
+          },
+          "strict_subregions": {
+            "5805": 132,
+            "5808": 889,
+            "5820": 3036
+          }
+        },
+        {
+          "ring": 4,
+          "ring_index": 4,
+          "geometry_id": 16120,
+          "nodes": 1203,
+          "cells": 1340,
+          "r_lower_mm": 208.0,
+          "r_upper_mm": 250.0,
+          "node_radius": {
+            "min_radius_mm": 208.59202294612342,
+            "max_radius_mm": 244.7269104846125,
+            "max_angular_gap_deg": 2.5003949713455245,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 208.021482331762,
+            "max_radius_mm": 249.42651571521583,
+            "max_angular_gap_deg": 2.3406261593813498,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000360": 1340
+          },
+          "strict_subregions": {
+            "5798": 670,
+            "5799": 670
+          }
+        },
+        {
+          "ring": 5,
+          "ring_index": 5,
+          "geometry_id": 16121,
+          "nodes": 1206,
+          "cells": 1135,
+          "r_lower_mm": 250.0,
+          "r_upper_mm": 285.0,
+          "node_radius": {
+            "min_radius_mm": 250.42030289851715,
+            "max_radius_mm": 283.4459225212137,
+            "max_angular_gap_deg": 2.667361134127677,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 254.96271794008192,
+            "max_radius_mm": 284.95683325799905,
+            "max_angular_gap_deg": 2.6166154532961348,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000360": 1135
+          },
+          "strict_subregions": {
+            "5800": 536,
+            "5804": 599
+          }
+        },
+        {
+          "ring": 6,
+          "ring_index": 6,
+          "geometry_id": 16122,
+          "nodes": 2278,
+          "cells": 2215,
+          "r_lower_mm": 285.0,
+          "r_upper_mm": null,
+          "node_radius": {
+            "min_radius_mm": 285.2574788842474,
+            "max_radius_mm": 302.6890272857373,
+            "max_angular_gap_deg": 2.665979101125016,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 285.0317837807289,
+            "max_radius_mm": 302.5958566408702,
+            "max_angular_gap_deg": 2.7137842841286686,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000360": 339,
+            "2000488": 1876
+          },
+          "strict_subregions": {
+            "5801": 134,
+            "5802": 1876,
+            "5803": 205
+          }
+        }
+      ],
+      "nodes": 10201,
+      "cells": 10181,
+      "part_ids": [
+        2000360,
+        2000488,
+        2000361,
+        2000362
+      ]
+    },
+    "rear_right": {
+      "wheel_id": 4,
+      "center_mm": [
+        -3316.3771361949834,
+        -730.1917439009953,
+        301.8732330945644
+      ],
+      "axis": [
+        0.007951522854600962,
+        -0.9999628724313815,
+        0.003320699184431872
+      ],
+      "thresholds_mm": [
+        90.0,
+        150.0,
+        208.0,
+        250.0,
+        285.0
+      ],
+      "boundaries_mm": [
+        90.0,
+        150.0,
+        208.0,
+        250.0,
+        285.0
+      ],
+      "beads": {
+        "inner": {
+          "center_mm": [
+            -3316.962860718807,
+            -656.5325482970806,
+            301.628623982055
+          ],
+          "normal": [
+            -0.0023206937370712525,
+            0.9999967775096222,
+            -0.0010292477591691863
+          ],
+          "nodes": 132,
+          "mean_radius_mm": 204.52244921966744,
+          "radial_std_mm": 0.2828437516364345,
+          "min_radius_mm": 203.72779362207046,
+          "max_radius_mm": 205.06656067695178,
+          "plane_rms_mm": 0.2078678346247162
+        },
+        "outer": {
+          "center_mm": [
+            -3315.79141167116,
+            -803.8509395049101,
+            302.11784220707386
+          ],
+          "normal": [
+            -0.002208001515275712,
+            0.9999974074518657,
+            0.0005566137401216698
+          ],
+          "nodes": 132,
+          "mean_radius_mm": 204.74575577474693,
+          "radial_std_mm": 0.291178697479326,
+          "min_radius_mm": 203.4524027127572,
+          "max_radius_mm": 205.2216470782578,
+          "plane_rms_mm": 0.28429407401640894
+        },
+        "separation_mm": 147.3238609845874
+      },
+      "bands": [
+        {
+          "ring": 1,
+          "ring_index": 1,
+          "geometry_id": 16123,
+          "nodes": 501,
+          "cells": 507,
+          "r_lower_mm": 0.0,
+          "r_upper_mm": 90.0,
+          "node_radius": {
+            "min_radius_mm": 28.197364862706483,
+            "max_radius_mm": 89.7253827608304,
+            "max_angular_gap_deg": 4.781397220491633,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 31.093309813006847,
+            "max_radius_mm": 89.78584147343757,
+            "max_angular_gap_deg": 4.90547786579724,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000365": 507
+          },
+          "strict_subregions": {
+            "5783": 507
+          }
+        },
+        {
+          "ring": 2,
+          "ring_index": 2,
+          "geometry_id": 16124,
+          "nodes": 919,
+          "cells": 927,
+          "r_lower_mm": 90.0,
+          "r_upper_mm": 150.0,
+          "node_radius": {
+            "min_radius_mm": 90.00144838507069,
+            "max_radius_mm": 149.9156735464317,
+            "max_angular_gap_deg": 3.3414776620905555,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 90.10238797716242,
+            "max_radius_mm": 149.37923413756138,
+            "max_angular_gap_deg": 3.23990583568056,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000365": 927
+          },
+          "strict_subregions": {
+            "5784": 927
+          }
+        },
+        {
+          "ring": 3,
+          "ring_index": 3,
+          "geometry_id": 16125,
+          "nodes": 4094,
+          "cells": 4057,
+          "r_lower_mm": 150.0,
+          "r_upper_mm": 208.0,
+          "node_radius": {
+            "min_radius_mm": 150.01724135995437,
+            "max_radius_mm": 205.22036271484492,
+            "max_angular_gap_deg": 1.8468026181978365,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 150.7605822654296,
+            "max_radius_mm": 207.23853521913642,
+            "max_angular_gap_deg": 1.862965137562163,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000363": 132,
+            "2000364": 3036,
+            "2000365": 889
+          },
+          "strict_subregions": {
+            "5781": 132,
+            "5782": 3036,
+            "5785": 889
+          }
+        },
+        {
+          "ring": 4,
+          "ring_index": 4,
+          "geometry_id": 16126,
+          "nodes": 1203,
+          "cells": 1340,
+          "r_lower_mm": 208.0,
+          "r_upper_mm": 250.0,
+          "node_radius": {
+            "min_radius_mm": 208.59202294612342,
+            "max_radius_mm": 244.7269104846125,
+            "max_angular_gap_deg": 2.5003949713455245,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 208.021482331762,
+            "max_radius_mm": 249.42651571521583,
+            "max_angular_gap_deg": 2.3406261593813498,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000363": 1340
+          },
+          "strict_subregions": {
+            "5774": 670,
+            "5775": 670
+          }
+        },
+        {
+          "ring": 5,
+          "ring_index": 5,
+          "geometry_id": 16127,
+          "nodes": 1206,
+          "cells": 1135,
+          "r_lower_mm": 250.0,
+          "r_upper_mm": 285.0,
+          "node_radius": {
+            "min_radius_mm": 250.42030289851715,
+            "max_radius_mm": 283.4459225212137,
+            "max_angular_gap_deg": 2.667361134127677,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 254.96271794008192,
+            "max_radius_mm": 284.95683325799905,
+            "max_angular_gap_deg": 2.6166154532961348,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000363": 1135
+          },
+          "strict_subregions": {
+            "5776": 536,
+            "5780": 599
+          }
+        },
+        {
+          "ring": 6,
+          "ring_index": 6,
+          "geometry_id": 16128,
+          "nodes": 2278,
+          "cells": 2215,
+          "r_lower_mm": 285.0,
+          "r_upper_mm": null,
+          "node_radius": {
+            "min_radius_mm": 285.2574788842474,
+            "max_radius_mm": 302.6890272857373,
+            "max_angular_gap_deg": 2.665979101125016,
+            "occupied_10deg_bins": 36
+          },
+          "cell_center_radius": {
+            "min_radius_mm": 285.0317837807289,
+            "max_radius_mm": 302.5958566408702,
+            "max_angular_gap_deg": 2.7137842841286686,
+            "occupied_10deg_bins": 36
+          },
+          "cell_count_by_part": {
+            "2000363": 339,
+            "2000489": 1876
+          },
+          "strict_subregions": {
+            "5777": 134,
+            "5778": 1876,
+            "5779": 205
+          }
+        }
+      ],
+      "nodes": 10201,
+      "cells": 10181,
+      "part_ids": [
+        2000363,
+        2000489,
+        2000364,
+        2000365
+      ]
+    }
+  },
+  "old_wheel_geometry_count": 178,
+  "new_wheel_geometry_count": 24,
+  "new_wheel_subregions": 48,
+  "old_wheel_subregions": 279,
+  "total_subregions": 5542,
+  "total_cell_geometry": 5518,
+  "total_node_geometry": 5617,
+  "total_primary": 4093,
+  "wheel_nodes": 40804,
+  "wheel_cells": 40724,
+  "thresholds_mm": [
+    90.0,
+    150.0,
+    208.0,
+    250.0,
+    285.0
+  ],
+  "formula": "r = norm((p-center) - dot(p-center,axis)*axis); ring = 1+searchsorted(thresholds,r,side='right'). For a cell p is the mean position of the distinct vertices. Bounds are lower inclusive, upper exclusive; no finite upper bound on the outer band.",
+  "strict_id_policy": "Non-wheel strict IDs unchanged; new strict wheel IDs above prior maximum, sparse by construction."
+}

@@ -1,0 +1,850 @@
+{
+  "metadata": "metadata.json",
+  "validation_report": "validation_report.json",
+  "virtual_dataset": "Toyota_yaris_116.h5",
+  "cases": [
+    {
+      "case_id": "F001",
+      "speed_kmh": 40.0,
+      "path": "cases/F001.h5",
+      "size_bytes": 941397079,
+      "hdf5_sha256": "5efab669b92af18899936f69b50808a590f54b2f1727f380996dedcbe5dc0b97"
+    },
+    {
+      "case_id": "F065",
+      "speed_kmh": 40.159,
+      "path": "cases/F065.h5",
+      "size_bytes": 941397079,
+      "hdf5_sha256": "d58328837288ea4959348a3c33e2ab6119f8af5f8b9814c3199139230213d86a"
+    },
+    {
+      "case_id": "F002",
+      "speed_kmh": 40.317,
+      "path": "cases/F002.h5",
+      "size_bytes": 941397447,
+      "hdf5_sha256": "f4c6eb981b9a06b0bc434cda75a5ce4c3b37f016aff6d3ee42b24c14385c05ea"
+    },
+    {
+      "case_id": "F066",
+      "speed_kmh": 40.476,
+      "path": "cases/F066.h5",
+      "size_bytes": 941396859,
+      "hdf5_sha256": "9eba5373f90201af3b707f4685fbef1b8fea01902a505a32d8788835e256a1e0"
+    },
+    {
+      "case_id": "F003",
+      "speed_kmh": 40.635,
+      "path": "cases/F003.h5",
+      "size_bytes": 941397012,
+      "hdf5_sha256": "a3c3634137d21b6e998a2a6460d5ef734c4d7b1c6be11d4d036985a124e793c4"
+    },
+    {
+      "case_id": "F067",
+      "speed_kmh": 40.794,
+      "path": "cases/F067.h5",
+      "size_bytes": 941397174,
+      "hdf5_sha256": "9eb6833f6f6f9d80401c11d5b11c254d6bd27f5528676687ddbb00de33fe2c34"
+    },
+    {
+      "case_id": "F004",
+      "speed_kmh": 40.952,
+      "path": "cases/F004.h5",
+      "size_bytes": 941397626,
+      "hdf5_sha256": "7d7d631975da2b3f4528baa06838e0b37feb9daa7e45fab8b248b07eef21039d"
+    },
+    {
+      "case_id": "F068",
+      "speed_kmh": 41.111,
+      "path": "cases/F068.h5",
+      "size_bytes": 941397755,
+      "hdf5_sha256": "8ab074819d7f00eb392321f6fe5f2337d49e5907e9ac93ac519ca76a8a3d8c35"
+    },
+    {
+      "case_id": "F005",
+      "speed_kmh": 41.27,
+      "path": "cases/F005.h5",
+      "size_bytes": 941397346,
+      "hdf5_sha256": "6a8d30a436e0c5a4325313d1f61675563416d11dab2e4a4d35da615c7e3f4e06"
+    },
+    {
+      "case_id": "F069",
+      "speed_kmh": 41.429,
+      "path": "cases/F069.h5",
+      "size_bytes": 941397186,
+      "hdf5_sha256": "4f589eeb0fe88c4988817019954701c4d6b711f82fe552ec64c3002b8740ba3f"
+    },
+    {
+      "case_id": "F006",
+      "speed_kmh": 41.587,
+      "path": "cases/F006.h5",
+      "size_bytes": 941396859,
+      "hdf5_sha256": "cf1e978c5bf91398660f4f6551b686392cced0e59fb1082c7ac1eab3fc535e53"
+    },
+    {
+      "case_id": "F070",
+      "speed_kmh": 41.746,
+      "path": "cases/F070.h5",
+      "size_bytes": 941396950,
+      "hdf5_sha256": "fcacbb205744b06e06eb04787bc474a95e80cf24b0f816f03aa84b7a487b181c"
+    },
+    {
+      "case_id": "F007",
+      "speed_kmh": 41.905,
+      "path": "cases/F007.h5",
+      "size_bytes": 941397102,
+      "hdf5_sha256": "6b812a5fce3935a8fb6588d4d52b09ec5fb1bce4b00e3c71d4e77ae3402c399e"
+    },
+    {
+      "case_id": "F071",
+      "speed_kmh": 42.064,
+      "path": "cases/F071.h5",
+      "size_bytes": 941396993,
+      "hdf5_sha256": "fe306c21a8556604fe42a91c79b314badc3abafe94d57d6110a4a4d4c196805f"
+    },
+    {
+      "case_id": "F008",
+      "speed_kmh": 42.222,
+      "path": "cases/F008.h5",
+      "size_bytes": 941397079,
+      "hdf5_sha256": "aa7027b6d45e2b37409daf8f636da8052ad47d2b67ac0ac61910b5bdd1365a34"
+    },
+    {
+      "case_id": "F072",
+      "speed_kmh": 42.381,
+      "path": "cases/F072.h5",
+      "size_bytes": 941397277,
+      "hdf5_sha256": "2656067e505ef252386204cb7e44d3e1705cd8308bdb27282e8883f3c8487de1"
+    },
+    {
+      "case_id": "F009",
+      "speed_kmh": 42.54,
+      "path": "cases/F009.h5",
+      "size_bytes": 941398234,
+      "hdf5_sha256": "13d14c2c1e6f91bb98f1c0f4e9068f6edc3c0c43280eefb251bfe75790ec2bbf"
+    },
+    {
+      "case_id": "F073",
+      "speed_kmh": 42.699,
+      "path": "cases/F073.h5",
+      "size_bytes": 941397115,
+      "hdf5_sha256": "909c35a9f9c0c73f278fbe3b0f3b196b1acb05aafbb63d0e71f21526b9d2c65b"
+    },
+    {
+      "case_id": "F010",
+      "speed_kmh": 42.857,
+      "path": "cases/F010.h5",
+      "size_bytes": 941397694,
+      "hdf5_sha256": "8f03e5371831aa0c62b1ddb0fb774cb9ce211daa65d8c65aaf558b75a89feb12"
+    },
+    {
+      "case_id": "F074",
+      "speed_kmh": 43.016,
+      "path": "cases/F074.h5",
+      "size_bytes": 941398057,
+      "hdf5_sha256": "cf537255cf51c1fe62caadbafeb4422757d54850557434456ca43794378ff1c4"
+    },
+    {
+      "case_id": "F012",
+      "speed_kmh": 43.492,
+      "path": "cases/F012.h5",
+      "size_bytes": 941397910,
+      "hdf5_sha256": "91ea8e0b6bcc0b647f8c1a49eaaf329420dfb227e0d6876ac90fc9ab81285a1f"
+    },
+    {
+      "case_id": "F075",
+      "speed_kmh": 43.651,
+      "path": "cases/F075.h5",
+      "size_bytes": 941397454,
+      "hdf5_sha256": "c2ab3cbb29f93024ae3de88e81d52a09a4274e867b39c2c56b4a77280271c5e6"
+    },
+    {
+      "case_id": "F013",
+      "speed_kmh": 43.81,
+      "path": "cases/F013.h5",
+      "size_bytes": 941397237,
+      "hdf5_sha256": "ebe601ce42b09c6499b699edd9778bf67efae74a2f5f2510467e2b251975f22d"
+    },
+    {
+      "case_id": "F076",
+      "speed_kmh": 43.969,
+      "path": "cases/F076.h5",
+      "size_bytes": 941396859,
+      "hdf5_sha256": "a0521a269db832d9a972dd77998f9fa5d0984053f18821b387bac30fe5592cbf"
+    },
+    {
+      "case_id": "F014",
+      "speed_kmh": 44.127,
+      "path": "cases/F014.h5",
+      "size_bytes": 941397539,
+      "hdf5_sha256": "234e21b866f3b385730847a7036ea76b7b49e9ae1acfb858a46a7a6a78cbbb2a"
+    },
+    {
+      "case_id": "F015",
+      "speed_kmh": 44.444,
+      "path": "cases/F015.h5",
+      "size_bytes": 941397838,
+      "hdf5_sha256": "66f29f517abdc499ab779eb9a71f43aecd1a1dd4e2baa5274cad4608d5ff6f5b"
+    },
+    {
+      "case_id": "F078",
+      "speed_kmh": 44.603,
+      "path": "cases/F078.h5",
+      "size_bytes": 941397918,
+      "hdf5_sha256": "f2eed904f5689519f46347f367c44e8c5e05a0b01b61261c06af04e7e39fbe3c"
+    },
+    {
+      "case_id": "F016",
+      "speed_kmh": 44.762,
+      "path": "cases/F016.h5",
+      "size_bytes": 941399081,
+      "hdf5_sha256": "ab7c15b800dbf538256bf9903844cbee8fc1683e4524a284119d3a2bfd890d82"
+    },
+    {
+      "case_id": "F079",
+      "speed_kmh": 44.921,
+      "path": "cases/F079.h5",
+      "size_bytes": 941399049,
+      "hdf5_sha256": "2fde768f982cc8d23ac325ab79ed570a3bac7092aed862894a1e05b7798e5577"
+    },
+    {
+      "case_id": "F017",
+      "speed_kmh": 45.079,
+      "path": "cases/F017.h5",
+      "size_bytes": 941397742,
+      "hdf5_sha256": "537d752337be8281f4cf36759156f6899f6dfb47dca671124a99f9c587037eac"
+    },
+    {
+      "case_id": "F080",
+      "speed_kmh": 45.238,
+      "path": "cases/F080.h5",
+      "size_bytes": 941397512,
+      "hdf5_sha256": "6d903d980f061362bf9c47ecb26a363b06a808d533208bf1c9cd57fd5bc4f693"
+    },
+    {
+      "case_id": "F018",
+      "speed_kmh": 45.397,
+      "path": "cases/F018.h5",
+      "size_bytes": 941397519,
+      "hdf5_sha256": "f2231438b9bcaca5a516c4d1cdd5fe0f88023bf2c9dabd4b5d2107c41d49bbce"
+    },
+    {
+      "case_id": "F081",
+      "speed_kmh": 45.556,
+      "path": "cases/F081.h5",
+      "size_bytes": 941398646,
+      "hdf5_sha256": "4407d35742228b922383e4f96d93f95d1bf05612cb97f039309e12d87686b373"
+    },
+    {
+      "case_id": "F019",
+      "speed_kmh": 45.714,
+      "path": "cases/F019.h5",
+      "size_bytes": 941398744,
+      "hdf5_sha256": "5ee1891b80eaade5e42b9ccd9cad133e97cb66c74b83486ab9b69a5e43e43e5b"
+    },
+    {
+      "case_id": "F082",
+      "speed_kmh": 45.873,
+      "path": "cases/F082.h5",
+      "size_bytes": 941398966,
+      "hdf5_sha256": "c1a2f110f76a6c9b5173dd8c2002a6b07b6f3b9664eac72af110c114b9f1a427"
+    },
+    {
+      "case_id": "F020",
+      "speed_kmh": 46.032,
+      "path": "cases/F020.h5",
+      "size_bytes": 941397331,
+      "hdf5_sha256": "f9844a58634440b90eead8325e56bd32e312159c7f86a62587d7551aa6f104d6"
+    },
+    {
+      "case_id": "F083",
+      "speed_kmh": 46.191,
+      "path": "cases/F083.h5",
+      "size_bytes": 941398297,
+      "hdf5_sha256": "a7e77df4ee7d545baab5ab72ea688d4dfff4bef7c56d7d3933ffe530d69064d5"
+    },
+    {
+      "case_id": "F021",
+      "speed_kmh": 46.349,
+      "path": "cases/F021.h5",
+      "size_bytes": 941398490,
+      "hdf5_sha256": "4cf1e859d9c8dde05525af98c72f374eb09861f4f23ca9c2dc255066d2d9775b"
+    },
+    {
+      "case_id": "F084",
+      "speed_kmh": 46.508,
+      "path": "cases/F084.h5",
+      "size_bytes": 941398599,
+      "hdf5_sha256": "1d24730dec48b607b84d9a7ab26d48b56d66ddf3d9aa96b17ea05fac682591ff"
+    },
+    {
+      "case_id": "F022",
+      "speed_kmh": 46.667,
+      "path": "cases/F022.h5",
+      "size_bytes": 941399312,
+      "hdf5_sha256": "74e9e9143caee34290aba271883fda95b60b938d239186e2e2342e83e33f6be1"
+    },
+    {
+      "case_id": "F085",
+      "speed_kmh": 46.826,
+      "path": "cases/F085.h5",
+      "size_bytes": 941398427,
+      "hdf5_sha256": "716e7bc50dc6adb15add4c5881e62fadfe8cf7055521b0f4f171b45027e297ad"
+    },
+    {
+      "case_id": "F023",
+      "speed_kmh": 46.984,
+      "path": "cases/F023.h5",
+      "size_bytes": 941400059,
+      "hdf5_sha256": "33eee4b7000be40a0217a482cc5319a76bf16dd1fbed0276f3817b6145320070"
+    },
+    {
+      "case_id": "F024",
+      "speed_kmh": 47.302,
+      "path": "cases/F024.h5",
+      "size_bytes": 941399995,
+      "hdf5_sha256": "d05453511a9d4beb656d45e2c2390ddfb134ccd3ab53521875af64e6b90e5f7a"
+    },
+    {
+      "case_id": "F087",
+      "speed_kmh": 47.461,
+      "path": "cases/F087.h5",
+      "size_bytes": 941399248,
+      "hdf5_sha256": "dcd31afed6e5d0737bdb221f166af464a8eb018a6b86f9c4a1e1c63db3e607e6"
+    },
+    {
+      "case_id": "F025",
+      "speed_kmh": 47.619,
+      "path": "cases/F025.h5",
+      "size_bytes": 941398635,
+      "hdf5_sha256": "e2f304cec691ccb5e1e8622829a9d94d15b5142ae5c1e48379bcc41fe4df8c5b"
+    },
+    {
+      "case_id": "F088",
+      "speed_kmh": 47.778,
+      "path": "cases/F088.h5",
+      "size_bytes": 941397395,
+      "hdf5_sha256": "491954d31a6a488c48dfe44f876f108eedfc8e5b7f5f488da9e0730fbe2baeb7"
+    },
+    {
+      "case_id": "F026",
+      "speed_kmh": 47.937,
+      "path": "cases/F026.h5",
+      "size_bytes": 941397852,
+      "hdf5_sha256": "f58f3de7ec67e7339ee2b3951c7b08cefa2ef0d96ad9e0a7de1323e22e82cd51"
+    },
+    {
+      "case_id": "F089",
+      "speed_kmh": 48.096,
+      "path": "cases/F089.h5",
+      "size_bytes": 941398084,
+      "hdf5_sha256": "75b3d48bc01a2fcc80fc71e0243393aec7803d6629fd094ca3bdc4be45768867"
+    },
+    {
+      "case_id": "F027",
+      "speed_kmh": 48.254,
+      "path": "cases/F027.h5",
+      "size_bytes": 941396973,
+      "hdf5_sha256": "0629517d9a2eba162060af16ba887d299fac5c9abe2bd89f7ae1fdef031f18df"
+    },
+    {
+      "case_id": "F090",
+      "speed_kmh": 48.413,
+      "path": "cases/F090.h5",
+      "size_bytes": 941399379,
+      "hdf5_sha256": "88ff077f578a8cdf568605afce504b677496cb8a5996a0e771f2d791820e403a"
+    },
+    {
+      "case_id": "F028",
+      "speed_kmh": 48.571,
+      "path": "cases/F028.h5",
+      "size_bytes": 941398652,
+      "hdf5_sha256": "89656ea67cbe8920defc3c83c7465087d15effd7c4cab8de2794b81779c5a06c"
+    },
+    {
+      "case_id": "F091",
+      "speed_kmh": 48.73,
+      "path": "cases/F091.h5",
+      "size_bytes": 941398463,
+      "hdf5_sha256": "ab1cc249f8b042eca1ad2011930fcc6b8ad3147bd4da4ff336caae0cf5d2f078"
+    },
+    {
+      "case_id": "F029",
+      "speed_kmh": 48.889,
+      "path": "cases/F029.h5",
+      "size_bytes": 941398066,
+      "hdf5_sha256": "026a1afa79f8c485636417ae4dcfda9b8428295a1ab67ed356cc394ba7e1279e"
+    },
+    {
+      "case_id": "F092",
+      "speed_kmh": 49.048,
+      "path": "cases/F092.h5",
+      "size_bytes": 941397175,
+      "hdf5_sha256": "e55495eb0e97833bc49b39f45b36868c21ea57b4976aafac691252ce1fc24592"
+    },
+    {
+      "case_id": "F030",
+      "speed_kmh": 49.206,
+      "path": "cases/F030.h5",
+      "size_bytes": 941397703,
+      "hdf5_sha256": "8136fb26d9b0963c8f2b8c12b1b69d5815135a99a219777b15aa591ef6c69529"
+    },
+    {
+      "case_id": "F093",
+      "speed_kmh": 49.365,
+      "path": "cases/F093.h5",
+      "size_bytes": 941397562,
+      "hdf5_sha256": "6d616e10f030ba784b906b5e3fbc7e956488ca9f52f91bb0a2b0bdabcb8cd153"
+    },
+    {
+      "case_id": "F031",
+      "speed_kmh": 49.524,
+      "path": "cases/F031.h5",
+      "size_bytes": 941399223,
+      "hdf5_sha256": "4351882155eedd9747a94efdd9e64b48ee8e4dc88e279dbe6f835301f654ba73"
+    },
+    {
+      "case_id": "F094",
+      "speed_kmh": 49.683,
+      "path": "cases/F094.h5",
+      "size_bytes": 941397262,
+      "hdf5_sha256": "99db5c7997d9cc7791030f5c9277f494a1f087b609c55845e0ce24e235992c63"
+    },
+    {
+      "case_id": "F032",
+      "speed_kmh": 49.841,
+      "path": "cases/F032.h5",
+      "size_bytes": 941399117,
+      "hdf5_sha256": "11eace0547fcdd1d1eccaafa51cc3c0b087942f6a5af3589f4b887badb44a8d0"
+    },
+    {
+      "case_id": "F033",
+      "speed_kmh": 50.159,
+      "path": "cases/F033.h5",
+      "size_bytes": 941398318,
+      "hdf5_sha256": "410df6a72774bc51536fc941b614ea8dfcf9bcfbd3d633cfbd251b4e5c3ea9d0"
+    },
+    {
+      "case_id": "F095",
+      "speed_kmh": 50.318,
+      "path": "cases/F095.h5",
+      "size_bytes": 941399064,
+      "hdf5_sha256": "ebf07572393d5e0a7f958eaa9ac17893f9dfe15f2b0f8aec5e1f00148ecfe09e"
+    },
+    {
+      "case_id": "F034",
+      "speed_kmh": 50.476,
+      "path": "cases/F034.h5",
+      "size_bytes": 941398237,
+      "hdf5_sha256": "b0269e1314c79a8ca4f6f915c47866fbca77d91684325121d9779d6d80a0de16"
+    },
+    {
+      "case_id": "F096",
+      "speed_kmh": 50.635,
+      "path": "cases/F096.h5",
+      "size_bytes": 941399328,
+      "hdf5_sha256": "f13420778100ea33976764e5692cd0f1dac12557c8ccc3929d1d9b214475b248"
+    },
+    {
+      "case_id": "F035",
+      "speed_kmh": 50.794,
+      "path": "cases/F035.h5",
+      "size_bytes": 941398928,
+      "hdf5_sha256": "6b11e286de381d27e30ccd76447d09ce84709d91a6e297e1d75ac1602f059688"
+    },
+    {
+      "case_id": "F097",
+      "speed_kmh": 50.953,
+      "path": "cases/F097.h5",
+      "size_bytes": 941397896,
+      "hdf5_sha256": "ae16eb4c569cd467728573ffef319b5cfaaeba3a6fab165f05a108eef5331d22"
+    },
+    {
+      "case_id": "F036",
+      "speed_kmh": 51.111,
+      "path": "cases/F036.h5",
+      "size_bytes": 941397702,
+      "hdf5_sha256": "b7c89f1181accc08e1f7b8d13a00a605e8da6c18364d397fa1c68bbd589b58d3"
+    },
+    {
+      "case_id": "F098",
+      "speed_kmh": 51.27,
+      "path": "cases/F098.h5",
+      "size_bytes": 941399012,
+      "hdf5_sha256": "b8548d546f61526b2f8e275c1ede33bb7a3a175abaa590e34b59c890eca43a8b"
+    },
+    {
+      "case_id": "F037",
+      "speed_kmh": 51.429,
+      "path": "cases/F037.h5",
+      "size_bytes": 941399834,
+      "hdf5_sha256": "6ecd6fca221f29bcfd7a677daf97bde726cbc6e9a0a284e816dafdf8a3766b51"
+    },
+    {
+      "case_id": "F099",
+      "speed_kmh": 51.588,
+      "path": "cases/F099.h5",
+      "size_bytes": 941399530,
+      "hdf5_sha256": "a9afc1400a91d2cc7ad5a67da9bccb5ec588df390c32653f73f5bf554399d751"
+    },
+    {
+      "case_id": "F038",
+      "speed_kmh": 51.746,
+      "path": "cases/F038.h5",
+      "size_bytes": 941398561,
+      "hdf5_sha256": "9b28be7185fd7d35567931352f065c5176ea09233174b3cfa84d4e4d31e7ca62"
+    },
+    {
+      "case_id": "F100",
+      "speed_kmh": 51.905,
+      "path": "cases/F100.h5",
+      "size_bytes": 941399699,
+      "hdf5_sha256": "d7dc96299b0b2927529bb526d610c5f10b0cb691e473f6f5681e6674f5918da9"
+    },
+    {
+      "case_id": "F039",
+      "speed_kmh": 52.063,
+      "path": "cases/F039.h5",
+      "size_bytes": 941400832,
+      "hdf5_sha256": "dbaf64e9084a3800aa072d8be04d1218863913aee162dd635e62b9205247d41f"
+    },
+    {
+      "case_id": "F101",
+      "speed_kmh": 52.222,
+      "path": "cases/F101.h5",
+      "size_bytes": 941398168,
+      "hdf5_sha256": "fdb4902948a248f57dff8053efaab844269a734af719467887d0c1c4e82ecd56"
+    },
+    {
+      "case_id": "F040",
+      "speed_kmh": 52.381,
+      "path": "cases/F040.h5",
+      "size_bytes": 941400565,
+      "hdf5_sha256": "768b7a18c01ea4254fac6580db940cd30e2578e7b94c347b9e9a6067bc146bd6"
+    },
+    {
+      "case_id": "F102",
+      "speed_kmh": 52.54,
+      "path": "cases/F102.h5",
+      "size_bytes": 941399443,
+      "hdf5_sha256": "1cb7aa0304ea54905c678752b191bd0c0b88598f111764cd73cae79af93935d9"
+    },
+    {
+      "case_id": "F041",
+      "speed_kmh": 52.698,
+      "path": "cases/F041.h5",
+      "size_bytes": 941400139,
+      "hdf5_sha256": "d991f50a069fca878a792dd3a423e490620dd617097c87befa5137f15d11f8a4"
+    },
+    {
+      "case_id": "F103",
+      "speed_kmh": 52.857,
+      "path": "cases/F103.h5",
+      "size_bytes": 941397873,
+      "hdf5_sha256": "b63dc54a57ea72945ae66c1e6680dedb66ff300e39c243fc8db160953883a573"
+    },
+    {
+      "case_id": "F042",
+      "speed_kmh": 53.016,
+      "path": "cases/F042.h5",
+      "size_bytes": 941399809,
+      "hdf5_sha256": "36878923bf4b1676a9512ceea99c69cb14fe5d2b421de6acab6073dc681bd3f3"
+    },
+    {
+      "case_id": "F104",
+      "speed_kmh": 53.175,
+      "path": "cases/F104.h5",
+      "size_bytes": 941399849,
+      "hdf5_sha256": "276dc513f12d99026dab59d223eca6860a97153629f51859a83f7b85a5cbb814"
+    },
+    {
+      "case_id": "F043",
+      "speed_kmh": 53.333,
+      "path": "cases/F043.h5",
+      "size_bytes": 941400174,
+      "hdf5_sha256": "0b72b835630bd5611d894237fde3b66a9d47c12435692576de88a85dafdbbb7d"
+    },
+    {
+      "case_id": "F105",
+      "speed_kmh": 53.492,
+      "path": "cases/F105.h5",
+      "size_bytes": 941399460,
+      "hdf5_sha256": "83db2e0b6434e7b2b26352cfddbeb7c7cbc1972b593003037edbfdfd17de2c17"
+    },
+    {
+      "case_id": "F044",
+      "speed_kmh": 53.651,
+      "path": "cases/F044.h5",
+      "size_bytes": 941400509,
+      "hdf5_sha256": "eca3b9acac6bcb9013bb50a981df1017b94c6d0da15e7527403fef28a6f0d378"
+    },
+    {
+      "case_id": "F106",
+      "speed_kmh": 53.81,
+      "path": "cases/F106.h5",
+      "size_bytes": 941400677,
+      "hdf5_sha256": "10e1f1177953ddead72a37906793844d86dbbb103705909fe83fb1929e0f73e8"
+    },
+    {
+      "case_id": "F045",
+      "speed_kmh": 53.968,
+      "path": "cases/F045.h5",
+      "size_bytes": 941400764,
+      "hdf5_sha256": "9e4f211540c679495f68c61aceba51038837c65f21f8cd9eb479c0ff07ad9b42"
+    },
+    {
+      "case_id": "F107",
+      "speed_kmh": 54.127,
+      "path": "cases/F107.h5",
+      "size_bytes": 941400103,
+      "hdf5_sha256": "0fa8b72eb8dc7c5f6534fe5000a2819b0936fe349583c4399ba86386d3e55ed1"
+    },
+    {
+      "case_id": "F046",
+      "speed_kmh": 54.286,
+      "path": "cases/F046.h5",
+      "size_bytes": 941400087,
+      "hdf5_sha256": "eff412c74141c2de7f94ab179ca04091964b596e32b8c9e19911c29379035034"
+    },
+    {
+      "case_id": "F047",
+      "speed_kmh": 54.603,
+      "path": "cases/F047.h5",
+      "size_bytes": 941399341,
+      "hdf5_sha256": "d77b07b56502b0f7283e42052d94cc22e0b330ffd30957a67d87b80afc1f4a1c"
+    },
+    {
+      "case_id": "F109",
+      "speed_kmh": 54.762,
+      "path": "cases/F109.h5",
+      "size_bytes": 941400979,
+      "hdf5_sha256": "ee7b6ba76bbbc1d177e28cd90d204fa7af44a2ad1cb9b2efd76e0fb5c72772f9"
+    },
+    {
+      "case_id": "F048",
+      "speed_kmh": 54.921,
+      "path": "cases/F048.h5",
+      "size_bytes": 941400598,
+      "hdf5_sha256": "3b830476ee6546f14027841fed95eda60b2c6176dd42abac1a8aeb1ba0c1a3bf"
+    },
+    {
+      "case_id": "F110",
+      "speed_kmh": 55.08,
+      "path": "cases/F110.h5",
+      "size_bytes": 941400253,
+      "hdf5_sha256": "dd406bd6fade6c075f249c14f719e20bf04606f9b8e24ea2ca250cf285ac2f61"
+    },
+    {
+      "case_id": "F111",
+      "speed_kmh": 55.397,
+      "path": "cases/F111.h5",
+      "size_bytes": 941398643,
+      "hdf5_sha256": "0d60359d5464c244cf7606e99fba2118d4147ece5bb7eca5f5ae5a65f6316f88"
+    },
+    {
+      "case_id": "F112",
+      "speed_kmh": 55.715,
+      "path": "cases/F112.h5",
+      "size_bytes": 941399567,
+      "hdf5_sha256": "609571b86214b77370909e5edecd21d2e9563053c037cca01e96bdad3f3a4717"
+    },
+    {
+      "case_id": "F051",
+      "speed_kmh": 55.873,
+      "path": "cases/F051.h5",
+      "size_bytes": 941401026,
+      "hdf5_sha256": "f9827afd3483971e09e21d725f1315b3a01b6b7c9503f059ca03ac0f1b325444"
+    },
+    {
+      "case_id": "F113",
+      "speed_kmh": 56.032,
+      "path": "cases/F113.h5",
+      "size_bytes": 941399937,
+      "hdf5_sha256": "e8879d9442b8cdaae5eec31240f3b9cbcbdc3b15836323e53ed3a15d287b310e"
+    },
+    {
+      "case_id": "F052",
+      "speed_kmh": 56.19,
+      "path": "cases/F052.h5",
+      "size_bytes": 941400064,
+      "hdf5_sha256": "710f6808db59401ca28f39310ba3b00e0e4e8c3048eb13298968f6a709dd6a82"
+    },
+    {
+      "case_id": "F114",
+      "speed_kmh": 56.349,
+      "path": "cases/F114.h5",
+      "size_bytes": 941400719,
+      "hdf5_sha256": "736ed35b7a1b5ad3fe4a21ed1598d3b2529041502461413220ec14269889065e"
+    },
+    {
+      "case_id": "F053",
+      "speed_kmh": 56.508,
+      "path": "cases/F053.h5",
+      "size_bytes": 941401392,
+      "hdf5_sha256": "0eeb30f28c57c64ec8ce75d417a0ae434bdd20e24dfa69b418caf5387ac5ed4c"
+    },
+    {
+      "case_id": "F115",
+      "speed_kmh": 56.984,
+      "path": "cases/F115.h5",
+      "size_bytes": 941400922,
+      "hdf5_sha256": "d6b7b00e9a537c559141b386bc09df9718414fff6d2c40c109135e5e1941e607"
+    },
+    {
+      "case_id": "F055",
+      "speed_kmh": 57.143,
+      "path": "cases/F055.h5",
+      "size_bytes": 941401270,
+      "hdf5_sha256": "15355ccf54d215ee41f56a7b57995dbf2375a03b7c30043266a4b2de6f82fcc6"
+    },
+    {
+      "case_id": "F116",
+      "speed_kmh": 57.302,
+      "path": "cases/F116.h5",
+      "size_bytes": 941399181,
+      "hdf5_sha256": "7846e792c04cb1963f3b2bbe432dc49073c4155738f1b8999a01ba69d44f390c"
+    },
+    {
+      "case_id": "F056",
+      "speed_kmh": 57.46,
+      "path": "cases/F056.h5",
+      "size_bytes": 941400723,
+      "hdf5_sha256": "18e3028c5b5fb812bd18aef85dea4e6ec84deea2e54db96fa17e4ac831837df7"
+    },
+    {
+      "case_id": "F117",
+      "speed_kmh": 57.619,
+      "path": "cases/F117.h5",
+      "size_bytes": 941400166,
+      "hdf5_sha256": "00295eaf5faed9dc563be78ae79e945e5147a5bd149c44f069eb72359a275ec7"
+    },
+    {
+      "case_id": "F057",
+      "speed_kmh": 57.778,
+      "path": "cases/F057.h5",
+      "size_bytes": 941400480,
+      "hdf5_sha256": "d3293d83af6685b833e4c564bc5f3a68b993da122fac27131393c8170c333e44"
+    },
+    {
+      "case_id": "F058",
+      "speed_kmh": 58.095,
+      "path": "cases/F058.h5",
+      "size_bytes": 941399600,
+      "hdf5_sha256": "0858f9e5e63e9d25a9384d3ef7d15a9f457d90066a69085a7e56ec294accd339"
+    },
+    {
+      "case_id": "F119",
+      "speed_kmh": 58.254,
+      "path": "cases/F119.h5",
+      "size_bytes": 941400765,
+      "hdf5_sha256": "20638486a4281d108c8c2954c7891bf6bbe50bad1cd8bbb1a224e646a871753b"
+    },
+    {
+      "case_id": "F059",
+      "speed_kmh": 58.413,
+      "path": "cases/F059.h5",
+      "size_bytes": 941400099,
+      "hdf5_sha256": "7e8db0fcce8bbdd3a9ed3e86929a1c5ca5707c9dca91c09435d0a1da667fdfb9"
+    },
+    {
+      "case_id": "F120",
+      "speed_kmh": 58.572,
+      "path": "cases/F120.h5",
+      "size_bytes": 941402366,
+      "hdf5_sha256": "79edbf10c5a450bc7c7a54e8722354fada5ec9e7113e9522dc0cd071ca53a72c"
+    },
+    {
+      "case_id": "F060",
+      "speed_kmh": 58.73,
+      "path": "cases/F060.h5",
+      "size_bytes": 941400731,
+      "hdf5_sha256": "ea24ea72073890f3ae935b05b81be44f048495717aec1b2090d49fbd74bbcc45"
+    },
+    {
+      "case_id": "F121",
+      "speed_kmh": 58.889,
+      "path": "cases/F121.h5",
+      "size_bytes": 941400027,
+      "hdf5_sha256": "61cf9ad06fe8e934a3e572a6e39cb1717ae2c63c7b25be9700a15b3d79fde566"
+    },
+    {
+      "case_id": "F061",
+      "speed_kmh": 59.048,
+      "path": "cases/F061.h5",
+      "size_bytes": 941399435,
+      "hdf5_sha256": "1f200da62dd85f26f5a67382e1e64c845a450590e583d46cbe372e91001e4865"
+    },
+    {
+      "case_id": "F122",
+      "speed_kmh": 59.207,
+      "path": "cases/F122.h5",
+      "size_bytes": 941401487,
+      "hdf5_sha256": "9fd0f1381c5439708b59bc6884a2ee16301930a0a71b6800b29b82725173dd7a"
+    },
+    {
+      "case_id": "F062",
+      "speed_kmh": 59.365,
+      "path": "cases/F062.h5",
+      "size_bytes": 941399888,
+      "hdf5_sha256": "fec91cb9d7f615e7e2809e5323c92aeb8357f5098adf6934a259892445305cad"
+    },
+    {
+      "case_id": "F123",
+      "speed_kmh": 59.524,
+      "path": "cases/F123.h5",
+      "size_bytes": 941401421,
+      "hdf5_sha256": "bff1cb9617ad6f614c4ab8428db0fb777c5a86b943a08e8da7069ed812767c36"
+    },
+    {
+      "case_id": "F063",
+      "speed_kmh": 59.683,
+      "path": "cases/F063.h5",
+      "size_bytes": 941400315,
+      "hdf5_sha256": "ab5ab86db5292317274c16ef8780808a3c45c2fe9112fefad37765e505878469"
+    },
+    {
+      "case_id": "F124",
+      "speed_kmh": 59.842,
+      "path": "cases/F124.h5",
+      "size_bytes": 941400185,
+      "hdf5_sha256": "c81a7b4f80c44c30ed451ca88c9f90e6b750c9ca41aaf9958f32b2b6c8a82eb4"
+    },
+    {
+      "case_id": "F064",
+      "speed_kmh": 60.0,
+      "path": "cases/F064.h5",
+      "size_bytes": 941401294,
+      "hdf5_sha256": "844c8619ff7721e37c751010be7c8e63fcb20ae3a4729a15b3fd36e679180010"
+    }
+  ],
+  "regions": {
+    "schema_version": "yaris-regions-v1",
+    "file": "region_mappings.h5",
+    "entry_group": "/regions",
+    "property_regions": 533,
+    "topology_regions": 1008,
+    "shared_node_membership": "many-to-many CSR",
+    "index_base": 0,
+    "unassigned_region_index": -1,
+    "static_for_all_cases_and_frames": true,
+    "validation_report": "region_validation.json",
+    "integration_report": "region_integration_report.json",
+    "reader": "read_regions.py",
+    "documentation": "README_regions.txt",
+    "source_definitions": "region_definitions.json",
+    "mapping_sha256": "89e4d6209e9d0fe1ca9a2b8c4d5a88e20417184a076a4204cb51f187f2f51bc4",
+    "wall_region_ids": {
+      "property": "G533",
+      "topology": "R1008"
+    },
+    "special_counts": {
+      "wall_node_indices": 82,
+      "wall_auxiliary_node_indices": 4,
+      "wall_related_node_indices": 86,
+      "unassigned_node_indices": 159,
+      "unassigned_base_node_indices": 135,
+      "wall_element_indices": 51,
+      "generated_wall_element_indices": 5,
+      "unassigned_element_indices": 5
+    }
+  }
+}
