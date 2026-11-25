@@ -1,0 +1,4 @@
+# Install PhysicsNeMo and its matching PyTorch build from the repository first.
+h5py>=3.16.0
+jaxtyping>=0.3.11
+numpy>=2.2.6

@@ -1,0 +1,26 @@
+PhysicsNeMo Models
+===================
+
+.. currentmodule:: physicsnemo.models
+
+.. toctree::
+   :maxdepth: 2
+   :caption: PhysicsNeMo Models
+   :name: PhysicsNeMo Models
+
+   api/models/modules.rst
+   api/models/fully_connected.rst
+   api/models/fnos.rst
+   api/models/gnns.rst
+   api/models/partitioned_mesh.rst
+   api/models/convolutional.rst
+   api/models/recurrent.rst
+   api/models/operators.rst
+   api/models/diffusion_unets.rst
+   api/models/dit.rst
+   api/models/transolver.rst
+   api/models/flare.rst
+   api/models/geotransolver.rst
+   api/models/globe.rst
+   api/models/isla.rst
+   api/models/weather.rst
